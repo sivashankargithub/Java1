@@ -29,5 +29,11 @@ public class InputPageController {
 		model.addAttribute("msg","Inserted Successfully");
 		return "index2";
 	}
+	@GetMapping("/upload")
+	public String upload1() {
+		return "index3";
+	}
+	
+	
 	
 }

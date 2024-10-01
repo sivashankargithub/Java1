@@ -1,0 +1,10 @@
+Tendulkar,Cricket
+Pele,Football
+Anand Vishwanathan,Chess
+Milka Singh,Athletics
+Saina Nehwal,Badminton
+Roger Federer,Tennis
+Abhinav Bindra,Shooting
+Tiger Woods,Golf
+Michael Philips,Swimming
+Pragnananda,Chess
