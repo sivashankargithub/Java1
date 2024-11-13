@@ -66,7 +66,17 @@ public class PincodeController {
     			String line1= sc1.nextLine();
     			String[] arr1 = line1.split(",");
     			int pincode = Integer.valueOf(arr1[0]);
-    			
+    			String location = arr1[1];
+    			String town = arr1[2];
+    			String district = arr1[3];
+    			String state = arr1[4];
+    			PincodeEntity savePincodes=new PincodeEntity();
+    			savePincodes.setPincode(pincode);
+    			savePincodes.setLocation(location);
+    			savePincodes.setTown(town);
+    			savePincodes.setDistrict(district);
+    			savePincodes.setState(state);
+    			pr.save(savePincodes);
     		}
             return new ResponseEntity<>("File uploaded successfully: " + mpf.getOriginalFilename(), HttpStatus.OK);
 

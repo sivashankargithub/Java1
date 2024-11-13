@@ -31,6 +31,7 @@ public class InputPageController {
 	}
 	@GetMapping("/upload")
 	public String upload1() {
+		String s1=new String();
 		return "index3";
 	}
 	
